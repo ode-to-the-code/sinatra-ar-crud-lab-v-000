@@ -7,4 +7,3 @@ class CreatePost < ActiveRecord::Migration[5.1]
     end
   end
 end
-bundle exec rake db:create_migration NAME=create_users
