@@ -7,6 +7,3 @@ class CreateArticles < ActiveRecord::Migration[5.1]
   end
 end
 
-    create_table :users do |t|
-      t.string :name
-    end
