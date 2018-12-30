@@ -1,9 +1,9 @@
 class CreatePost < ActiveRecord::Migration[5.1]
   def change
     create_table :posts do |t|
-      t.string :namecook_time
+      t.string :name
       t.string :ingredients
-      t.integer :
+      t.integer :cook_time
     end
   end
 end
